@@ -17,7 +17,8 @@ class deficientnumber {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter Number :");
+		System.out.println("Enter Number:");
+		// the author is smart
 		int num = input.nextInt();
 		boolean deficient = deficientnumber(num);
 		if (deficient == false) {
